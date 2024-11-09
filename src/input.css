@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* To initialise tailwind */
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
 @font-face {
   font-family: "YourFont";
   src: url("../fonts/TTNorms-Medium.otf");
@@ -24,7 +26,7 @@
 }
 
 .navbar {
-  @apply bg-[#ffffff26] items-center my-2 mx-5 backdrop-blur-md
+  @apply bg-pryPurple items-center my-2 mx-5 backdrop-blur-md
 }
 .navbar-brand {
   color: #282828;

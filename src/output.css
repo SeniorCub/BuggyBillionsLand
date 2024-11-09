@@ -553,3 +553,158 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.collapse {
+  visibility: collapse;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* To initialise tailwind */
+
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
+
+@font-face {
+  font-family: "YourFont";
+
+  src: url("../fonts/TTNorms-Medium.otf");
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "YourFont";
+
+  src: url("../fonts/TTNorms-ExtraBoldItalic.otf");
+
+  font-weight: bold;
+
+  font-style: italic;
+}
+
+* {
+  font-family: "YourFont", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  align-items: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(121 111 171 / var(--tw-bg-opacity));
+  --tw-backdrop-blur: blur(12px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.navbar-brand {
+  color: #282828;
+}
+
+.nav-link {
+  font-size: 12px;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background: #796fab23;
+}
+
+.nav-btn1 {
+  font-size: 12px;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.nav-btn1:hover {
+  background: #796fab23;
+}
+
+.nav-btn2 {
+  background: transparent;
+  border: 2px solid #282828;
+  width: 150px;
+}
+
+.nav-btn2:hover {
+  background: transparent;
+  border: 2px solid #282828;
+}
