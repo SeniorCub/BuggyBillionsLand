@@ -25,34 +25,12 @@
   box-sizing: border-box;
 }
 
-.navbar {
-  @apply bg-pryPurple items-center my-2 mx-5 backdrop-blur-md
+.stat-card {
+  box-shadow: 5px 5px 10px #796fab36;
 }
-.navbar-brand {
-  color: #282828;
-}
-.nav-link {
-  font-size: 12px;
-  padding: 10px 25px;
-  border-radius: 5px;
-}
-.nav-link:hover {
-  background: #796fab23;
-}
-.nav-btn1 {
-  font-size: 12px;
-  padding: 10px 25px;
-  border-radius: 5px;
-}
-.nav-btn1:hover {
-  background: #796fab23;
-}
-.nav-btn2 {
-  background: transparent;
-  border: 2px solid #282828;
-  width: 150px;
-}
-.nav-btn2:hover {
-  background: transparent;
-  border: 2px solid #282828;
+.stat-card:after{
+  background: url(images/asset1.png);
+  background-size: cover;
+  background-position: center;
+  @apply content-[""] h-full z-[-1] absolute bottom-0 left-0 w-full opacity-30
 }
