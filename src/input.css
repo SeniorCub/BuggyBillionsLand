@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "YourFont";
+  src: url("../fonts/TTNorms-Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "YourFont";
+  src: url("../fonts/TTNorms-ExtraBoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+* {
+  font-family: "YourFont", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  @apply bg-[#ffffff26] items-center my-2 mx-5 backdrop-blur-md
+}
+.navbar-brand {
+  color: #282828;
+}
+.nav-link {
+  font-size: 12px;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.nav-link:hover {
+  background: #796fab23;
+}
+.nav-btn1 {
+  font-size: 12px;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.nav-btn1:hover {
+  background: #796fab23;
+}
+.nav-btn2 {
+  background: transparent;
+  border: 2px solid #282828;
+  width: 150px;
+}
+.nav-btn2:hover {
+  background: transparent;
+  border: 2px solid #282828;
+}
