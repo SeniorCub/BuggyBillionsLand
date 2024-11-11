@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/2a49fbdbb8.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../src/images/asset12.png" type="image/png">
+    <title>BuggyBillions || Story</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            scroll-behavior: smooth;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            border-bottom: 2px solid #000;
+            position: relative;
+        }
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+        .arrow-btn {
+            position: absolute;
+            font-size: 1.5rem;
+            border: 2px solid #000;
+            color: #333;
+            cursor: pointer;
+            padding: 10px;
+            background-color: white;
+            border-radius: 50%;
+            right: 30px;
+        }
+        .arrow-btn.down {
+          bottom: 70px;
+      }
+        .arrow-btn.up {
+            top: 50px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="bg-white mp fixed w-full top-0 z-40">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+            <a href="https://buggybillions.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="../src/images/asset120-min.png" class="h-7" alt="BuggyBillions Logo">
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button" class="text-secBlack border text-lg hidden md:block border-secBlack radius bg-transparent hover:bg-secBlack hover:text-secWhite focus:ring-4 focus:outline-none focus:ring-secBlack font-medium rounded-lg py-4 px-9 text-center" onclick="whatsapp()">Contact Us</button>
+                <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 md:w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-lg md:p-0 rounded text-secBlack" aria-current="page">Stories</a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/2347010015366" class="block py-2 px-3 text-lg md:p-0 rounded text-secBlack">Know More</a>
+                    </li>
+                    <li>
+                        <button type="button" class="text-secBlack md:hidden border text-lg border-secBlack radius bg-transparent hover:bg-secBlack hover:text-secWhite focus:ring-4 focus:outline-none focus:ring-secBlack font-medium rounded-lg py-4 px-9 text-center" onclick="whatsapp()">Contact Us</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1 -->
+    <section id="section1">
+     <div class=" w-full relative bg-pryPurple">
+          <div class="md:px-[5vw] px-[10vw] z-30 items-center w-full h-full justify-center flex absolute bg-transparent">
+               <div class="md:basis-1/2 flex h-full justify-center items-center md:w-1/2 w-full bg-transparent">
+                    <div class="flex flex-col justify-center items-center h-full bg-transparent italic text-5xl text-secWhite">
+                         <h1 class="font-bold text-3xl md:text-5xl shadoww">Hi, I am Osunjimi Ibrahim</h1>
+                         <h2 class="text-xl md:text-5xl shadoww lightt">A Web Developer</h2>
+                         <h2 class="text-xl md:text-5xl shadoww lightt">A Tech Titan</h2>
+                         <button type="button" class="mt-4 px-4 py-2 md:text-xl text-sm text-secWhite radius btt bg-black" onclick="whatsapp()">yh. i want to be a titan</button>
+                    </div>
+               </div>
+               <div class="md:basis-1/2 h-full w-full bg-transparent"></div>
+          </div>
+          <div class="gradient z-20 absolute w-full h-full"></div>
+          <div class="md:px-[5vw] items-end w-full h-full justify-end flex">
+               <div class="md:basis-3/5"></div>
+               <div class="md:basis-1/2 h-max w-full md:w-max">
+                    <img alt="Profile of Osunjimi Ibrahim"  src="../src/images/story/user/ibrahim2.png" class="ml-auto mt-auto img-fluid object-contain object-right-bottom" />
+               </div>
+          </div>
+     </div>
+        <a href="#section2" class="arrow-btn down"><i class="fa-solid fa-arrow-down"></i></a>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="section2">
+        <h1>Section 2</h1>
+        <p class="text-center">This is the content for Section 2. Scroll down to see more sections.</p>
+        <a href="#section1" class="arrow-btn up"><i class="fa-solid fa-arrow-up"></i></a>
+        <a href="#section3" class="arrow-btn down"><i class="fa-solid fa-arrow-down"></i></a>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="section3">
+        <h1>Section 3</h1>
+        <p class="text-center">This is the content for Section 3.</p>
+        <a href="#section2" class="arrow-btn up"><i class="fa-solid fa-arrow-up"></i></a>
+    </section>
+
+    <!-- Smooth Scroll Script -->
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        // Initialize smooth scroll
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            offset: 60 // Offset for fixed navbar
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script>
+        function whatsapp() {
+            window.open('https://wa.me/2347010015366', '_blank');
+        }
+    </script>
+</body>
+</html>
