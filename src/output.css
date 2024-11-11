@@ -779,6 +779,10 @@ video {
   max-width: 56rem;
 }
 
+.max-w-full {
+  max-width: 100%;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
 }
@@ -1139,6 +1143,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1495,6 +1504,11 @@ video {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .md\:text-xl {
